@@ -11,19 +11,27 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
+
+
+
 <div class="container-fluid">
 
 	<div class="row">
-		<div class="col-md-3" id="header">
-			<h1><strong><span>CrystalsCollector!</span></strong></h1>
+		<div class="col-md-4" id="header">
+			<h1>CrystalsCollector!</h1>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-4">
 		</div>
 	</div>
 	
@@ -40,7 +48,7 @@
 
 				<p>The value of each crystal is hidden from you until you click it.</p>
 
-				<p>Each time when the game start, the game will change the value of each crystal.</p>
+				<p>Each time when the game starts, the game will change the value of each crystal.</p>
 			</div>
 		</div>
 		<div class="col-md-6">
@@ -51,16 +59,39 @@
 
 
 
-	
-	<div id="numberToBeat">
-		<h3>Number to beat:</h3> <span id="randomNumber"></span>	
+	<div class="row">
+		<div class="col-md-3">
+			<div id="numberToBeat">
+				<h2>Number to beat: <span id="randomNumber"></span></h2>	
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>	
+
+		
+
+
+
+	<div class="row">
+		<div class="col-md-3">	
+			<div id="scoreBoard">
+				<h3>Wins: <span id="win"></span></h3>	
+				<h3>Losses: <span id="loss"></span></h3>
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+		</div>
 	</div>
 
-	<div id="scoreboard">
-		<h3>Wins: <span id="win"></span></h3>	
-		<h3>Losses: <span id="loss"></span></h3>
-		
-	</div>
+
+
+
+
 
 	<div class="btn-group btn-group-lg" role="group" aria-label="...">
   		<button type="button" class="btn btn-default crystal1"><img src="assets/images/image1.png"></button>
@@ -69,13 +100,24 @@
   		<button type="button" class="btn btn-default crystal4"><img src="assets/images/image4.png"></button>
 	</div>
 
-	<div id="scoreTotal">
-		<h2 id="yourTotalScore">Your total score is:<span id="playerScore"></span></h2>
-		
+	
+
+	<div class="row">
+		<div class="col-md-3">	
+			<div id="scoreTotal">
+				<h2 id="yourTotalScore">Your total score is: <span id="playerScore"></span></h2>
+			</div>
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+		</div>	
 	</div>
+
 
 	
 </div>
+
 
 
 

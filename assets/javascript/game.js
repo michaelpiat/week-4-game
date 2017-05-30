@@ -39,14 +39,25 @@ var crystalNumbers = [];
 			if (gameNumber === playerPoints) {
 				//increment wins
 				wins++;
-				alert("you win");
+				$.dialog({
+    				title: "You're a boss! You're a mogul!",
+    				content: "Let's win more!",
+					type: 'green',
+    				typeAnimated: true
+    			});
 				$("#win").html(wins);
 			//player lost if his points are more then the random number
 			} else {
 				//increment losses
 				losses++;
+				$.dialog({
+    				title: 'You just played yourself',
+    				content: "Let's try another one!",
+					type: 'red',
+    				typeAnimated: true
+				});
 				$("#loss").html(losses);
-				alert("you suck");
+				
 			}
 		//this resets the game when the first if statment is true	
 			playerPoints = 0;

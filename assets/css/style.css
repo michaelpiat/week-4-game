@@ -1,9 +1,55 @@
+body {
+	background-image: url("../images/bkg.png");
+}
+
+
+.container-fluid {
+	font-family: 'Press Start 2P', cursive;
+
+}
+
 #header {
 	background-color: chocolate;
 	color: white;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+#header h1 {
+	font-size: 25px;
 }
 
 #gameInstructions {
 	background-color: blanchedalmond;
 	color: seagreen;
+	padding-bottom: 20px;
+	font-size: 10px;
+}
+ 
+#numberToBeat {
+	background-color: springgreen;
+	color: gray;
+	padding-bottom: 20px;
+}
+
+#numberToBeat h2 {
+	font-size: 25px;
+}
+
+#scoreBoard {
+	background-color: aqua;
+	color: teal;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+#scoreTotal {
+	background-color: darkcyan;
+	color: white;
+	padding-bottom: 20px;
+}
+
+#scoreTotal h2 {
+	font-size: 25px;
 }
