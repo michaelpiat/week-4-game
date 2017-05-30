@@ -90,6 +90,7 @@ var crystalNumbers = [];
 
 
 $("#randomNumber").html(gameNumber);
+$("#audio").html("<audio autoplay loop><source src='assets/music/audio.mp3'></audio");
 
 
 
